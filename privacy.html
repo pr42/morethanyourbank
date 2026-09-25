@@ -11,30 +11,37 @@
 </head>
 <body>
 <h1>Privacy Policy — Video Gen Management</h1>
-<p><em>Last updated: 24 September 2026</em></p>
+<p><em>Last updated: 25 September 2026</em></p>
 
 <p>Video Gen Management is a private tool used only by the owner of the YouTube channel
-<a href="https://www.youtube.com/@morethanyourbank">More Than Your Bank</a> to follow how the channel's own videos perform.
-It is not offered to anyone else.</p>
+<a href="https://www.youtube.com/@morethanyourbank">More Than Your Bank</a> to publish the channel's own videos, after
+the owner has reviewed and approved each one, and to follow how they perform. It is not offered to anyone else.</p>
+
+<p>It uses YouTube API Services. By using it, the channel owner agrees to the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Data handled by Google is covered by the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h2>What it accesses</h2>
-<p>With the channel owner's permission, through Google's OAuth, it requests two read-only scopes:</p>
+<p>With the channel owner's permission, through Google's OAuth, it requests these scopes, all on the owner's own channel:</p>
 <ul>
+  <li><code>youtube.upload</code>: to upload the owner's approved videos, as private videos scheduled to publish at a time the owner chooses;</li>
+  <li><code>youtube.force-ssl</code>: to add each video's subtitles, custom thumbnail and playlist entry, and to post one comment on a Short linking to the full video;</li>
   <li><code>youtube.readonly</code>: the channel's ID and its list of videos;</li>
   <li><code>yt-analytics.readonly</code>: the channel's own statistics (views, watch time, audience retention and similar reports).</li>
 </ul>
-<p>It cannot upload, edit or delete anything, and it does not read comments, messages or any other person's data.</p>
+<p>It never deletes videos, and it does not read comments, messages or any other person's data.</p>
 
 <h2>How the data is used and stored</h2>
-<p>The statistics and the access token are stored only on the channel owner's own computer. They are used only to show the
-owner how the channel's videos perform. They are never sold, shared with third parties, or used for advertising.</p>
+<p>The access token and the channel's own statistics are stored only on the channel owner's own computer. They are used
+only to publish the owner's videos and to show the owner how they perform. They are never sold, shared with third
+parties, or used for advertising.</p>
 <p>Video Gen Management's use of information received from Google APIs adheres to the
 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
 including the Limited Use requirements.</p>
 
 <h2>Revoking access</h2>
 <p>Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>;
-the stored token then stops working, and the locally stored statistics can be deleted by the owner.</p>
+the stored token then stops working, and the locally stored statistics are deleted within 30 days, or at once on request.</p>
 
 <h2>Contact</h2>
 <p><a href="https://github.com/pr42">github.com/pr42</a></p>
